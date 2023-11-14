@@ -1,0 +1,19 @@
+{
+  "name": "shoppingmall",
+  "version": "1.0.0",
+  "description": "this is fullstack project in MERN",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "mongodb",
+    "reactjs",
+    "javascript",
+    "ecommerce"
+  ],
+  "author": "Sohail Anjum",
+  "license": "ISC"
+}
