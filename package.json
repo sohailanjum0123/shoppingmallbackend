@@ -2,9 +2,11 @@
   "name": "shoppingmall",
   "version": "1.0.0",
   "description": "this is fullstack project in MERN",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/server.js"
   },
   "keywords": [
     "express",
@@ -15,5 +17,8 @@
     "ecommerce"
   ],
   "author": "Sohail Anjum",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
